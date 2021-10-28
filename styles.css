@@ -1,0 +1,29 @@
+table{
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#s{
+    position:absolute;
+    margin-top:-1%;
+    margin-left:15%;
+
+}
+#k{
+    position:absolute;
+    margin-top:-1.5%;
+    margin-left:15%;
+
+}
+#h{
+    background-color: rgb(61, 223, 142);
+}
+#h2{
+    background-color: rgb(61, 223, 142);
+}
+table tr:nth-child(even) {
+    background-color: hsla(9, 96%, 50%, 0.5)
+}
